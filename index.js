@@ -71,6 +71,10 @@ Cursor.prototype.batchSize = function() {
   return this._config('batchSize', arguments);
 };
 
+Cursor.prototype.hint = function() {
+  return this._config('hint', arguments);
+};
+
 Cursor.prototype.sort = function() {
   return this._config('sort', arguments);
 };
